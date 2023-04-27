@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .button {
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 45px;
+      margin-top: -60px;
+      cursor: pointer;
+      
+    }
+    
+    .button1 {background-color: black;}
+    .button2 {background-color: black} 
+    </style>
+
+<body>
+    <p style="background-color: black;height: 100px;margin-bottom: -50px;"></p>
+
+    <button class="button button1"
+    onclick = "window.location.href='http://127.0.0.1:5000/';">
+    Back to Home
+</button>
+    
+    <button class="button button2"
+    onclick = "window.location.href='http://127.0.0.1:5000/ConfirmationPage';">
+    Confirm Booking
+    </button>
+
+    <img src="pittlogo" height="500" width="600" style="margin-top: 150px;float: inline-end;">
+
+    <h1 style="margin-top:80px;font-family: 'Courier New', Courier, monospace;font-size: 55px;margin-top: 150px;">Select your room</h1>
+
+    <table  style=" border: 10px double black; font-size: 45px; width: 50%;margin-top: 75px;">
+        <td>
+            <th style=" border: 1px solid black;">Room Number</th>
+            <th style=" border: 1px solid black;">Bed Count</th>
+            <th style=" border: 1px solid black;">Balcony</th>
+        </td>
+        <tr>
+            <td style=" border: 1px solid black;"><input type="checkbox" style="height: 50px; width: 50px;"/></td>
+            <td style=" border: 1px solid black;">308</td>
+            <td style=" border: 1px solid black;">3</td>
+            <td style=" border: 1px solid black;">No</td>
+        </tr>
+        <tr>
+            <td style=" border: 1px solid black;"><input type="checkbox" style="height: 50px; width: 50px;"/></td>
+            <td style=" border: 1px solid black;">230</td>
+            <td style=" border: 1px solid black;">1</td>
+            <td style=" border: 1px solid black;">No</td>
+        </tr>
+        <tr>
+            <td style=" border: 1px solid black;"><input type="checkbox" style="height: 50px; width: 50px;"/></td>
+            <td style=" border: 1px solid black;">217</td>
+            <td style=" border: 1px solid black;">2</td>
+            <td style=" border: 1px solid black;">yes</td>
+        </tr>
+        <tr>
+            <td style=" border: 1px solid black;"><input type="checkbox" style="height: 50px; width: 50px;"/></td>
+            <td style=" border: 1px solid black;">303</td>
+            <td style=" border: 1px solid black;">2</td>
+            <td style=" border: 1px solid black;">No</td>
+        </tr>
+        <tr>
+            <td style=" border: 1px solid black;"><input type="checkbox" style="height: 50px; width: 50px;"/></td>
+            <td style=" border: 1px solid black;">222</td>
+            <td style=" border: 1px solid black;">1</td>
+            <td style=" border: 1px solid black;">yes</td>
+        </tr>
+    </table>
+
+</body>
+</html>

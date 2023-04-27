@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!--The style for the buttons will be seen on every page-->
+<!--The layout was also taken from w3schools.com and modified to make a banner at the top of each page-->
+<style>
+    .button {
+        border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 45px;
+      margin-top: -60px;
+      cursor: pointer;
+    }
+    
+    .button1 {background-color: black;}
+    
+    .button2 {background-color: black;}
+    </style>
+<body>
+
+    <p style="background-color: black;height: 100px;margin-bottom: -50px;"></p>
+
+    <button onclick = "window.location.href='http://127.0.0.1:5000/BookRoom';"
+    class="button button1">
+        Book Room
+    </button>
+    
+    <button 
+
+    class="button button2"
+    onclick = "window.location.href='http://127.0.0.1:5000/Management';">
+        Management
+    </button>
+
+    <img src="logo.png" height="500" width="600" style="margin-top: 150px;float: inline-end;">
+
+    <h2
+    style="font-size: 100px;font-family: 'Times New Roman', Times, serif; text-align: center;">
+    Pitt Hotel</h2>
+    
+    <p 
+    style="font-family: 'Courier New', Courier, monospace;font-size: 50px;text-align: center;margin: 100px,100px,150px,80px;">
+    Welcome to the Pitt Hotel!
+    </p>
+    
+    <p 
+    style="font-family: 'Courier New', Courier, monospace; font-size: 35px; text-align: center;margin: 35px;">
+    If you would like to book a room please select the button labeled "Book Room". If you are management and need to acess system please select the "management" button.
+    </p>
+
+    <img src="hotellobby.jpg" alt="Wait in our luxorious lobby as we prepare your room." height="500" width="500">
+
+    <img src="hotelpool.jpg" alt="Relax in our heated pool!" height="500" width="500">
+
+    <!--THis part of the code was from the example we used durring week 8-->
+    <form action = "http://localhost:5000/" method = "post">
+        <p>Enter Name:</p>
+        <p><input type = "text" name = "nm" /></p>
+        <p><input type = "submit" value = "submit" /></p>
+    
+    
+</body>
+</html>
